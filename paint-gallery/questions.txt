@@ -1,0 +1,3 @@
+- how to add regular/medium to font style (as specified by designer) on css? Should it be specified on the font-family or should it be on font weight?
+
+- 
