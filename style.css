@@ -66,8 +66,8 @@ button {
 }
 
 .wrapper {
-    max-width: 1200px;
-    width: 80%;
+    max-width: 1280px;
+    width: 90%;
     margin: 0 auto;
     border: black solid;
 };
@@ -148,7 +148,7 @@ header {
     background-image: url(./assets/header.png);
     background-size: cover;
     height: 800px;
-    border: blue solid;
+    /* border: blue solid; */
 }
 
 .header {
@@ -177,7 +177,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    border: purple solid;
+    /* border: purple solid; */
 }
 
 .headerIcons i {
@@ -200,7 +200,7 @@ h1 {
 /* SECTION ´NEW´ STYLES */
 .new {
     background-color: #FFE9E9;
-    border: blue solid;
+    /* border: blue solid; */
 }
 
 .newContainer {
@@ -226,7 +226,7 @@ h1 {
 .latest {
     background-color: #F7DAE8;
     height: 700px;
-    border: blue solid;
+    /* border: blue solid; */
 }
 
 .latest h2 {
@@ -247,7 +247,7 @@ h1 {
 .iconsSection {
     background-color: #FFE9E9;
     height: 300px;
-    border: blue solid;
+    /* border: blue solid; */
 }         
 
 .icon {
@@ -271,44 +271,50 @@ h1 {
 
 
 /* SECTION ´FINDING + ALL KIND OF PAINTS` STYLES */
-.findingAllKind {
+.blog {
     background-color: #F7DAE8;/* REMOVE AFTER EVERYTHING DONE, this is just for me to see space section is taking */
-    border: blue solid;
-    height: 800px;
+    /* border: blue solid; */
+    height: 1000px;
+    /* display: flex; */
 }
 
+/* .row>div { */
+    /* padding: 15px; */
+    /* DIDNT DO ANYTHING */
+/* } */
+
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 0;
+}
+.rowTwo {
+    flex-direction:row;
+}
 
 .purpleButton {
     background-color: #A7059B;
 }
 
-.finding {
-    /* width: 50%;
-    height: 50%; */
-}
-
-.allKinds {
-    /* width: 50%;
-    height: 50%; */
-    /* position: relative;
-    bottom: 400px;
-    left: 50%; */
-}
-
-.brushes {
+.text {
     width: 50%;
     height: 50%;
-    /* position: relative;
-    left: 50%;
-    bottom: 370px; */
+    /* height: 50%; */
+        /* position: relative;
+        bottom: 400px;
+        left: 50%; */
 }
 
-.paint {
-        width: 50%;
-        height: 50%; 
-        /* position: relative;
-        bottom: 630px; */
-    }
+.image {
+    width: 50%;
+    height: 50%;
+    /* position: relative; */
+    /* left: 400px; */
+    /* background-image: url(./assets/paint6.png); */
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+}
 
 /* FOOTER STYLES */
 
