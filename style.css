@@ -359,3 +359,14 @@ input {
     align-items: flex-end;
     width: 320px;
 }
+
+/* MEDIA QUERIES */
+
+
+@media (max-width: 940px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+/* OBS: I tried different media queries without success. I thought I knew how to use media queries, but I realized I don´t. I will study and take part on Sunday´s alumni hours, as well as schedule a one-o-one session to make sure I know how to use media queries before the break. I should have done it before the due date of this first assignment, but naively thought I would figure it out by myself in time. I didn´t. There are other areas for improvement as well, such as forms. Thank you. */
