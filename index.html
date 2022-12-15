@@ -46,10 +46,10 @@
             <nav>
                 <ul class="headerIcons">
                     <div class="divIcons">
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                        <li><i class="fa-brands fa-facebook-f"></i></li>
-                        <li><i class="fa-solid fa-bell"></i></li>
-                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                     </div>
                 </ul>
                 </div>
@@ -60,7 +60,7 @@
     <main>
         <!-- THIS IS THE `NEW PRODUCT` SECTION -->
         <section class="new">
-            <section class="wrapper new">
+            <section class="wrapper">
                 <div class="newContainer">
                     <img src="./assets/paint2.png" alt="Colourful paiting containers aligned on a shelf">
                     
@@ -80,49 +80,49 @@
                 <h2>latest exhibitions</h2>
                 <div class="latestPaintings">
                     <ul>
-                        <li><img src="./assets/paint3.png" alt="Placeholder image of a screen with colorful mixed brushes on it"></li>
-                        <li><img src="./assets/paint4.png" alt="Placeholder image of a whit fabric with opened paint containers ocupying half the fabric surface on its right side"></li>
-                        <li><img src="./assets/paint5.png" alt="Placeholder image of a surface with thick wave-look layers paint of yellow, navy blue, red and light blue colours"></li>
+                        <li><a href="#"><img src="./assets/paint3.png" alt="Placeholder image of a screen with colorful mixed brushes on it"></a></li>
+                        <li><a href="#"><img src="./assets/paint4.png" alt="Placeholder image of a whit fabric with opened paint containers ocupying half the fabric surface on its right side"></a></li>
+                        <li><a href="#"><img src="./assets/paint5.png" alt="Placeholder image of a surface with thick wave-look layers paint of yellow, navy blue, red and light blue colours"></a></li>
                     </ul>
                 </div>
             </section>
         </section>
 
         <!-- THIS IS THE `CATALOGUE EVENTS COLLAB` SECTION -->
-        <section class="icons">
-            <section class="wrapper icons">
+        <section class="iconsSection">
+            <section class="wrapper">
                 <div class="flexIcons">
                     <div>
-                        <i class="fa-regular fa-images"></i>
-                        <h3>catalogue</h3>
+                        <i class="fa-regular fa-images icon"></i>
+                        <a href="#"><h3>catalogue</h3></a>
                     </div>
 
                     <div>
-                        <i class="fa-sharp fa-solid fa-calendar-days"></i>
-                        <h3>events</h3>
+                        <i class="fa-sharp fa-solid fa-calendar-days icon"></i>
+                        <a href="#"><h3>events</h3></a>
                     </div>
 
                     <div>
-                        <i class="fa-regular fa-handshake"></i>
-                        <h3>collaborations</h3>
+                        <i class="fa-regular fa-handshake icon"></i>
+                        <a href="#"><h3>collaborations</h3></a>
                     </div>
             </section>
         </section>
 
         <!-- THIS IS THE `FINDING + ALL KIND OF PAINTS` SECTION -->
-        <section class="finding">
-            <section class="wrapper">
-                <div>
+        <section class="findingAllKind">
+            <section>
+                <div class="wrapper finding">
                     <h2>Finding the right brushes</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elemnetum eleifend. Vestibulum                       consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincidunt                      sem, a blandit sem. Quisque interdum orci.</p>
                     <button class="purpleButton">read more</button>
                 </div>
                     
-                <div>       
-                    <img src="./assets/paint6.png"                       alt="Five brushes with colours dark blue, red, light blue, green mixed with blu and green, touching each other on their edges, laying on what seems to be a white coloured painted surface, which barely appears in the picture"></img>
+                <div class="brushes">       
+                    <img src="./assets/paint6.png" alt="colurful brushes" class="brushes"></img>
                 </div>
 
-                <div>
+                <div class="wrapper allKinds">
                     <h2>All kinds of paints</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elemnetum eleifend. Vestibulum
                         consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae
@@ -130,39 +130,36 @@
                     <button class="purpleButton">read more</button>
                 </div>
 
-                <div>
+                <div class="paint">
                     <img src="./assets/paint7.png"
-                    alt="Five brushes with colours dark blue, red, light blue, green mixed with blu and green, touching each other on their edges, laying on what seems to be a white coloured painted surface, which barely appears in the picture"></img>
+                    alt="Five used brushes with different colours" class="paint"></img>
                 </div>
             </section>
         </section>
 
     <!-- THIS IS THE FOOTER -->
     <footer>
-        <div class="wrapper">
+        <div class="wrapper footer">
             <h3>Stay updated</h3>
 
             <div class="flexFooter">
                 <div class="footerLinks">
-                    <p>Home</p></a>
-                    <p>Blog</p>
-                    <p>Gallery</p>
-                    <p>Contact</p>
+                    <a href="#"><p>Home</p></a>
+                    <a href="#"><p>Blog</p></a>
+                    <a href="#"><p>Gallery</p></a>
+                    <a href="#"><p>Contact</p></a>
                 </div>
 
                 <div class="footerMiddle">
-                    <p>Subscribe to our newsletter to stay updated</p>
+                    <p>Subscribe to our newsletter to stay updated.</p>
                     <!-- include form with subscrbe button -->
                     <div class="formAndButton">
                         <form action="#" method="#" class="myForm" name="myForm">
-                        
-                            <label for="subscribe"></label>
-                            <textarea name="#" id="subscribe" cols="30" rows="1" minlength="5" maxlength="100">
-                            subscribe
-                        </textarea>
-                        
+                            <label for="userEmail"></label>
+                            <!-- <textarea name="#" id="subscribe" cols="30" rows="1" minlength="5" maxlength="100"></textarea> -->
+                            <input type="email" id="userEmail" name="emailAddress" placeholder="email address">
+                        <button type="submit">subscribe</button>
                         </form>
-                        <button>subscribe</button>
                     </div>
                 </div>
 

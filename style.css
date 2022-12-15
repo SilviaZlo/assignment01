@@ -41,8 +41,6 @@ Very light pink
  */
 html {
     font-size: 125%;
-    background-color: lightgreen; 
-    /* REMOVE AFTER EVERYTHING DONE, THIS IS JUST FOR ME TO SEE WHAT IS HTML AND WHAT IS WRAPPER */
 }
 
 img {
@@ -71,6 +69,7 @@ button {
     max-width: 1200px;
     width: 80%;
     margin: 0 auto;
+    border: black solid;
 };
 
 h2,
@@ -96,11 +95,13 @@ p {
     font-family: 'Roboto', sans-serif;
     /* check if there´s a way to specify the difference, as navs are robotomedium and p´s are roboto regular, but the description is the same on google fonts (unless I didn´t check properly */
     letter-spacing: 0.2px;
+    font-size: 20px;
 }
 
 nav,
 a {
     font-weight: 500;
+    text-decoration: none;
 }
 
 p {
@@ -136,14 +137,8 @@ button {
     padding: 10px 20px;
 }
 
-nav {
-    font-size: 20px;
-    /* text-align not specified */
-    /* font-weight: ?; */
-}
-
-p {
-    font-size: 20px;
+ul {
+    list-style: none;
 }
 
 /* HEADER STYLES */
@@ -153,6 +148,7 @@ header {
     background-image: url(./assets/header.png);
     background-size: cover;
     height: 800px;
+    border: blue solid;
 }
 
 .header {
@@ -181,6 +177,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    border: purple solid;
 }
 
 .headerIcons i {
@@ -193,33 +190,43 @@ h1 {
 
 .divIcons {
     text-align: center;
-    margin-right: -70px;
+    margin-right: -90px;
+    /* margin-bottom: -100px; */
+    margin-top: 170px;
+    background-color: orange;
 }
 
 
 /* SECTION ´NEW´ STYLES */
 .new {
     background-color: #FFE9E9;
+    border: blue solid;
 }
 
 .newContainer {
     display: flex;
     height: 400px;
+    align-content: center;
     
 }
 
 .newContainer img {
-    padding: 80px 0;
+    padding: 60px 0;
+    margin-top: -20px;
+    height: 450px;
+    
 }
 
 .newText {
-    padding: 40px 0 40px 30px;
+    padding: 40px 0 40px 50px;
+    margin-top: -20px;
 }
 
 /* SECTION ´LATEST´ STYLES */
 .latest {
     background-color: #F7DAE8;
     height: 700px;
+    border: blue solid;
 }
 
 .latest h2 {
@@ -237,11 +244,16 @@ h1 {
 }
 
 /* SECTION ´ICONS´ STYLES */
-.icons {
+.iconsSection {
     background-color: #FFE9E9;
     height: 300px;
+    border: blue solid;
 }         
 
+.icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
 
 .flexIcons div {
     display: flex;
@@ -253,50 +265,90 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     color:#0178A5;
+    align-items: center;
+    height: 299px;
 }
 
 
-/* SECTION ´FINDING´ STYLES */
-.finding {
+/* SECTION ´FINDING + ALL KIND OF PAINTS` STYLES */
+.findingAllKind {
     background-color: #F7DAE8;/* REMOVE AFTER EVERYTHING DONE, this is just for me to see space section is taking */
-    display: flex;
+    border: blue solid;
+    height: 800px;
 }
+
 
 .purpleButton {
     background-color: #A7059B;
 }
 
+.finding {
+    /* width: 50%;
+    height: 50%; */
+}
+
+.allKinds {
+    /* width: 50%;
+    height: 50%; */
+    /* position: relative;
+    bottom: 400px;
+    left: 50%; */
+}
+
+.brushes {
+    width: 50%;
+    height: 50%;
+    /* position: relative;
+    left: 50%;
+    bottom: 370px; */
+}
+
+.paint {
+        width: 50%;
+        height: 50%; 
+        /* position: relative;
+        bottom: 630px; */
+    }
+
 /* FOOTER STYLES */
 
 footer {
     background-color: #FFE9E9;
-    height: 300px;
+    height: 350px;
+}
+
+.footer {
+    padding-top:30px;
 }
 
 .flexFooter {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .footerLinks {
     text-align: left;
     display: flex;
     flex-direction: column;
+    /* width: 260px; */
 }
 
 .footerMiddle {
-    text-align: ;
+    text-align: center;
     /* display: flex;
     flex-direction: column; */
-    /* width: fit-content; */
+    width: 500px;
 }
 
 .formAndButton {
-    display: flex;
+    /* display: flex; */
+    /* align-items: center; */
 }
 
 .footerContact {
-    text-align: right;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    width: 320px;
 }
