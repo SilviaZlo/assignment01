@@ -69,7 +69,7 @@ button {
     max-width: 1280px;
     width: 90%;
     margin: 0 auto;
-    border: black solid;
+    /* border: black solid; */
 };
 
 h2,
@@ -274,23 +274,19 @@ h1 {
 .blog {
     background-color: #F7DAE8;/* REMOVE AFTER EVERYTHING DONE, this is just for me to see space section is taking */
     /* border: blue solid; */
-    height: 1000px;
+    height: 1010px;
     /* display: flex; */
 }
-
-/* .row>div { */
-    /* padding: 15px; */
-    /* DIDNT DO ANYTHING */
-/* } */
 
 .row {
     display: flex;
     flex-direction: row-reverse;
     margin: 0;
-    padding: 0;
+    padding-top: 0;
 }
 .rowTwo {
     flex-direction:row;
+    margin-top: -7px;
 }
 
 .purpleButton {
@@ -299,21 +295,15 @@ h1 {
 
 .text {
     width: 50%;
-    height: 50%;
-    /* height: 50%; */
-        /* position: relative;
-        bottom: 400px;
-        left: 50%; */
+    padding: 70px 70px;
+}
+
+.text p {
+    /* margin: 10px 0; */
 }
 
 .image {
-    width: 50%;
-    height: 50%;
-    /* position: relative; */
-    /* left: 400px; */
-    /* background-image: url(./assets/paint6.png); */
-    /* background-size: contain;
-    background-repeat: no-repeat; */
+    width: 50%;    
 }
 
 /* FOOTER STYLES */
@@ -323,21 +313,21 @@ footer {
     height: 350px;
 }
 
-.footer {
-    padding-top:30px;
+.footer h3 {
+    padding-top: 80px;
 }
 
 .flexFooter {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .footerLinks {
     text-align: left;
     display: flex;
     flex-direction: column;
-    /* width: 260px; */
+    width: 260px;
 }
 
 .footerMiddle {
@@ -345,11 +335,22 @@ footer {
     /* display: flex;
     flex-direction: column; */
     width: 500px;
+    /* margin-right: -300px; */
 }
 
 .formAndButton {
-    /* display: flex; */
-    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.myForm {
+    /* width: 100%; */
+}
+
+input {
+    width: 75%;
+    padding: 0 60px 20px 60px; 
 }
 
 .footerContact {
